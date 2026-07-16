@@ -1,5 +1,7 @@
 <Solution>
+  <Project Path="Application/Application.csproj" Id="aad3cd12-6171-497e-a4b2-f87912b4cc2f" />
   <Project Path="Domain/Domain.csproj" />
   <Project Path="DreamStreamBackend/DreamStreamBackend.csproj" />
   <Project Path="Infrastructure/Infrastructure.csproj" />
+  <Project Path="Presentation/Presentation.csproj" Id="d17fa380-4261-4113-b854-3fb8c3d35120" />
 </Solution>

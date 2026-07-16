@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain.Models
+namespace Domain.Entities
 {
-    internal class ChatMessage
+    public class ChatMessage
     {
         public Guid Id { get; set; }
         public Guid UserId { get; set; }

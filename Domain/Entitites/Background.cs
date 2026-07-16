@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain.Models
+namespace Domain.Entities
 {
-    internal class Role
+    public class Background
     {
         public Guid Id { get; set; }
-        public required string Name { get; set; }
+        public required string DescriptionPrompt { get; set; }
     }
 }

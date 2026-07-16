@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain.Models
+namespace Domain.Entities
 {
-    internal class Music
+    public class Music
     {
         public Guid Id { get; set; }
         public Guid AuthorId { get; set; }

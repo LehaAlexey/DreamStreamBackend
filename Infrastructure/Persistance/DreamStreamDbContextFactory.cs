@@ -1,10 +1,15 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Infrastructure.Persistance
 {
-    internal class DreamStreamDbContextFactory
+    public static class DreamStreamDbContextFactory<TContext> where TContext : DbContext, new()
     {
+        public static TContext CreateDbContext()
+        {
+            return new TContext();
+        }
     }
 }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain.Models
+namespace Domain.Entities
 {
-    internal class StreamRecord
+    public class StreamRecord
     {
         public Guid Id { get; set; }
         public Guid MusicId { get; set; }
